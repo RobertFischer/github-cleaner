@@ -21,7 +21,7 @@ description:         Please see the README on Github at <https://github.com/Robe
 
 dependencies:
 - base >= 4.11 && < 10
-- rio >= 0.1.8.0
+- rio >= 0.1.8.0 && < 0.2
 
 ghc-options:
 - -Wall
@@ -36,7 +36,7 @@ library:
   source-dirs: src
 
 executables:
-  github-cleaner-exe:
+  github-cleaner:
     main:                Main.hs
     source-dirs:         app
     dependencies:
